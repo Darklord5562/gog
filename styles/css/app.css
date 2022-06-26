@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Reg";
+  src: url("../fonts/ProductSansRegular.ttf")
+}
+
+@font-face {
+  font-family: "Itl";
+  src: url("../fonts/ProductSansItalic.ttf");
+}
+
+@font-face {
+  font-family: "Bol";
+  src: url("../fonts/ProductSansBold.ttf");
+}
+
+
+
+*,
+body,
+html {
+  font-family: "Reg", Arial, Helvetica, sans-serif;
+}
+
+em {
+  font-family: "Itl"
+}
+
+b {
+  font-family: "Bld"
+}
+
+.app{
+  height: 100vh;
+  width: 100vw;
+}
+
